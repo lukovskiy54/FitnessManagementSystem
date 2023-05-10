@@ -256,7 +256,7 @@ FitnessCenterManager::FitnessCenterManager() {
             cin.clear();
             cout<<"Enter class description:"<<endl;
             string description;
-            getline(cin, description);
+            cin>>description;
             cin.clear();
             cout<<"Enter class instructor:"<<endl;
             string instructor;
@@ -264,8 +264,7 @@ FitnessCenterManager::FitnessCenterManager() {
             cin.clear();
             cout<<"Enter class schedule"<<endl;
             string schedule;
-            getline(cin, schedule);
-            cin>>ws;
+            cin>>schedule;
             cin.clear();
             cout<<"Enter class number of members:"<<endl;
             int number;
@@ -286,11 +285,11 @@ FitnessCenterManager::FitnessCenterManager() {
         if(command == "/addPersonalTraining"){
             cout<<"Enter training name:"<<endl;
             string name;
-            getline(cin, name);
+            cin>>name;
             cin.clear();
             cout<<"Enter class description:"<<endl;
             string description;
-            getline(cin, description);
+            cin>>description;
             cin.clear();
             cout<<"Enter class instructor:"<<endl;
             string instructor;
